@@ -11,7 +11,7 @@ timer=5;
 function preload(){
 dog1=loadImage("img1.png");
 dog2=loadImage("img2.png");
-injection=loadImage("Injection.png")
+injection=loadImage("injection.png")
 food1=loadImage("food.png")
 
 }
