@@ -17,6 +17,8 @@ food1=loadImage("food.png")
 }
 
 function setup() {
+	alert("A newer version is available!!");
+	location.href="";
 	createCanvas(800, 700);
   database=firebase.database();
   var foodleft=database.ref("VirtualPet/food")
